@@ -1,1 +1,4 @@
-# btre_project
+# Real Estate Viewing Platform Example Django Project
+
+
+
