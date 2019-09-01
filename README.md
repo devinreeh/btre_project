@@ -34,7 +34,9 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
 
 ### Listing
 id: INT
+
 realtor: INT (foreign key [realtor])
+
 title: STR
 address: STR
 city: STR
