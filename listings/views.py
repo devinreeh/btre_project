@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from.models import Listing
+from .models import Listing
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 def index(request):
