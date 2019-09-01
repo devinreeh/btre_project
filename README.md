@@ -1,4 +1,23 @@
 # Real Estate Viewing Platform Example Django Project
+## Overview
+BT Real Estate is a mock Residential Real Estate Company used to demonstrate the Django framework. This project used Python 3.7.4, Django 2.2.4. The website can be viewed here. No domain name was purchased for this website. Please mind the ugly URL. [BT Real Estate website](https://www.google.com)
+
+## Some General User Stories
+#### As a site visitor, you can
+ 1. View Commercial Real Estate Properties in a list view
+ 2. View Commercial Real Estate Properties in a single in depth view
+ 3. See what the latest featured listings are
+ 4. Search for properties based on where they are
+
+
+#### As a site admin, you can
+1. Create/Read/Update/Delete Realtors
+2. Create/Read/Update/Delete Listings
+... and enabled quick view functionalities
+..* Searchable by title, description, address, city, state, zip code, and price
+..* Editable by whether a property is published or not
+..* Filterable by realtor, price, and list date
+3. Other outbox
 
 
 
