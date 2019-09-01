@@ -8,6 +8,8 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
  2. View Commercial Real Estate Properties in a single in depth view
  3. See what the latest featured listings are
  4. Search for properties based on where they are
+ 5. Paginate through the listings in the featured listings tab
+
 
 
 #### As a site admin, you can
@@ -17,6 +19,7 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
 ..* Searchable by title, description, address, city, state, zip code, and price
 ..* Editable by whether a property is published or not
 ..* Filterable by realtor, price, and list date
+3. Moderate whether a listing is published (boolean is_published)
 3. Other outbox
 
 
