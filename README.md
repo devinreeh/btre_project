@@ -9,6 +9,12 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
  3. See what the latest featured listings are
  4. Search for properties based on where they are
  5. Paginate through the listings in the featured listings tab
+ 6. Search for home based on:
+ ..* keywords in the description
+ ..* city (case insensitive, exact match)
+ ..* state (exact match)
+ ..* bedrooms (entry is upper bound on range example <4 rooms)
+ ..* price (entry is upper bound on range example <$800,000 rooms)
 
 
 
