@@ -1,9 +1,29 @@
 # Real Estate Viewing Platform Example Django Project
-## Overview
+## Purpose
 BT Real Estate is a mock Residential Real Estate Company used to demonstrate the Django framework. This project used Python 3.7.4, Django 2.2.4. The website can be viewed here. No domain name was purchased for this website. Please mind the ugly URL. [BT Real Estate website](https://www.google.com)
 
+## Some Core Features
+### As a site visitor, you can:
+1. View listings
+2. Search Listings
+3. Email Realtors about listings
+4. Read about the company and its realtors
+
+### As a realtor, you can:
+1. You can receive emails about listings you are showing
+
+### As a site admin, you can
+1. edit the data entries
+2. choose featured Realtors
+3. create, read, update, or delete realtor profiles, listings, or users who have reached out about particular Listing
+
+## Some Cool Things:
+1. This website includes pagination
+2. Admin can view Python models in table form and even edit some of the boolean Fields
+3. You can create an account which records the listings a user has tried to contact a realtor about
+
 ## Some General User Stories
-#### As a site visitor, you can
+### As a site visitor, you can
  1. View Commercial Real Estate Properties in a list view
  2. View Commercial Real Estate Properties in a single in depth view
  3. See what the latest featured listings are
@@ -16,9 +36,7 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
  ..* bedrooms (entry is upper bound on range example <4 rooms)
  ..* price (entry is upper bound on range example <$800,000 rooms)
 
-
-
-#### As a site admin, you can
+### As a site admin, you can
 1. Create/Read/Update/Delete Realtors
 2. Create/Read/Update/Delete Listings
 ... and enabled quick view functionalities
@@ -28,54 +46,7 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
 3. Moderate whether a listing is published (boolean is_published)
 3. Other outbox
 
-
-
-## Mapping out the Database, Models, and Fields
-
-### Listing
-id: INT
-
-realtor: INT (foreign key [realtor])
-
-title: STR
-address: STR
-city: STR
-state: STR
-zipcode: STR
-description: TEXT
-price: INT
-bedrooms: INT
-bathrooms: INT
-garage: INT
-sqft: INT
-lot_size: FLOAT
-is_published: BOOL [TRUE]
-list_date: DATE
-photo_main: STR
-photo_1: STR
-photo_2: STR
-photo_3: STR
-photo_4: STR
-photo_5: STR
-photo_6: STR
-
-### Realtor
-id: INT
-name:  STR
-photo: STR
-description: STR
-email: STR
-phone: STR
-is_mvp: BOOL [0]
-hire_date: DATE
-
-### Contact
-id: INT
-user_id: INT
-listing: INT
-listing_id: INT
-name: STR
-email: STR
-phone: STR
-message: TEXT
-contact_date: DATE
+## Next Steps:
+* Use React as the view layer instead of normal javascript and jquery
+* Build a more robust RestAPI and Routing system
+* Write tests for the backend API
