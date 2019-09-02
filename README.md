@@ -1,6 +1,6 @@
 # Real Estate Viewing Platform Example Django Project
 ## Purpose
-BT Real Estate is a mock Residential Real Estate Company used to demonstrate the Django framework. This project used Python 3.7.4, Django 2.2.4. The website can be viewed here. No domain name was purchased for this website. Please mind the ugly URL. [BT Real Estate website](https://www.google.com)
+BT Real Estate is a mock Residential Real Estate Company used to demonstrate the Django framework. This project used Python 3.7.4, Django 2.2.4. ~~The website can be viewed here. No domain name was purchased for this website. Please mind the ugly URL. [BT Real Estate website]()~~
 
 ## Some Core Features
 ### As a site visitor, you can:
@@ -47,6 +47,7 @@ BT Real Estate is a mock Residential Real Estate Company used to demonstrate the
 3. Other outbox
 
 ## Next Steps:
+* Deploy Project to a a prouction server for viewing
 * Use React as the view layer instead of normal javascript and jquery
 * Build a more robust RestAPI and Routing system
 * Write tests for the backend API
