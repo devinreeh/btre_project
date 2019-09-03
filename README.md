@@ -2,6 +2,25 @@
 ## Purpose
 BT Real Estate is a mock Residential Real Estate Company used to demonstrate the Django framework. This project used Python 3.7.4, Django 2.2.4. ~~The website can be viewed here. No domain name was purchased for this website. Please mind the ugly URL. [BT Real Estate website]()~~
 
+
+Make sure that you have django and python installed. To start up python virtual environment:
+```python
+source venv/bin/activate
+python manage.py runserver
+```
+Pip Dependencies List:
+```python
+autopep8        1.4.4
+Django          2.2.4
+Pillow          6.1.0
+pip             19.0.3
+psycopg2-binary 2.8.3
+pycodestyle     2.5.0
+pytz            2019.2
+setuptools      40.8.0
+sqlparse        0.3.0
+```
+
 ## Some Core Features
 ### As a site visitor, you can:
 1. View listings
